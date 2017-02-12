@@ -105,7 +105,7 @@ table(assay(airway)[,3])
 sum(assay(airway,"counts")>=1)
 
 sum(assay(airway)[,3]>=1)
-#2599
+#25699
 
 
 #Q8:he airway dataset contains more than 64k features. How many of these features overlaps with transcripts on the autosomes (chromosomes 1-22) as represented by the TxDb.Hsapiens.UCSC.hg19.knownGene package?
@@ -139,6 +139,5 @@ findOverlaps(crossTD,rowdata_one_unlist)
 
 
 Q8:26276
-Q9:not 0.8315966
-      not 0.8749633
+Q9:0.9004193
 Q10:232
